@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <h2>To-Do List</h2>
+      <form id="form" action="#">
+        <div class="todo-input">
+          <input type="text" placeholder="Добавить задачу" id="taskInput" />
+          <button id="addbnt" type="submit">+</button>
+        </div>
+
+        <div class="priority">HIGH</div>
+        <ul class="todo-list" id="highPriorityList"></ul>
+
+        <!-- <div class="priority">LOW</div>
+        <ul class="todo-list" id="lowPriorityList"></ul> -->
+      </form>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
